@@ -1,0 +1,6 @@
+[submodule "/Users/b05062/dotfiles/vimfiles/neobundle.vim"]
+	path = /Users/b05062/dotfiles/vimfiles/neobundle.vim
+	url = https://github.com/Shougo/neobundle.vim
+[submodule "/Users/b05062/dotfiles/vimfiles/vimproc"]
+	path = /Users/b05062/dotfiles/vimfiles/vimproc
+	url = https://github.com/Shougo/vimproc
