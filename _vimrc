@@ -12,10 +12,11 @@ NeoBundle 'VimClojure'
 NeoBundle 'Shougo/vimshell'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neocomplcache'
-NeoBundle 'Shougo/neosnippet'
 NeoBundle 'jpalardy/vim-slime'
 NeoBundle 'scrooloose/syntastic'
-
+NeoBundle 'scrooloose/nerdtree'
 filetype plugin indent on     " required!
 filetype indent on
 syntax on
+
+NeoBundleCheck
