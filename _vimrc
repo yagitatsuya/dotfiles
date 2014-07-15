@@ -15,8 +15,16 @@ NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'jpalardy/vim-slime'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'mhinz/vim-startify'
 filetype plugin indent on     " required!
 filetype indent on
 syntax on
 
 NeoBundleCheck
+set clipboard+=unnamed
+set tabstop=4
+set autoindent
+set expandtab
+set shiftwidth=4
+
+nnoremap Y y$
