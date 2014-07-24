@@ -23,8 +23,9 @@ syntax on
 NeoBundleCheck
 set clipboard+=unnamed
 set tabstop=4
-set autoindent
+" set autoindent
 set expandtab
 set shiftwidth=4
+set directory=/tmp
 
 nnoremap Y y$
