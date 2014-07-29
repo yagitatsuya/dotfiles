@@ -26,6 +26,9 @@ set tabstop=4
 " set autoindent
 set expandtab
 set shiftwidth=4
-set directory=/tmp
+set noswapfile
+set backupdir=~/.vim/tmp
+set backspace=start,eol,indent
+
 
 nnoremap Y y$
