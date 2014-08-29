@@ -1,0 +1,10 @@
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# RVM
+[ -s ${HOME}/.rvm/scripts/rvm ] && source ${HOME}/.rvm/scripts/rvm
+
+PS1="\n\`if [ \$? = 0 ]; then echo \[\e[32m\]^_^\[\e[0m\]; else echo
+\[\e[31m\]O_O\[\e[0m\]; fi\` (\h:\w)\n* "
+
+PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME%%.*}:${PWD/$HOME/~}\007"'
